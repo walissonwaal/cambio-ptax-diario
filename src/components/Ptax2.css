@@ -1,0 +1,66 @@
+.indicadores {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.ptax {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.ptax-area {
+    width: 100%;
+}
+
+.janela {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.accordion {
+    --bs-accordion-btn-bg:#000000 !important;
+    --bs-accordion-btn-color:#fff !important;
+    --bs-accordion-active-bg:#000 !important;
+    --bs-accordion-active-color:#00d692 !important;
+    --bs-accordion-btn-focus-box-shadow:none !important;
+    --bs-accordion-border-color:none !important;
+}
+.accordion-header {
+    background-color: black;
+}
+
+.accordion-body {
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+.compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #006947;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.venda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #690000;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9pt;
+    background-color: #00000050;
+    border-radius: 5px;
+    height: 30px;
+}
